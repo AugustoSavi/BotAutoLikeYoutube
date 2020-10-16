@@ -5,11 +5,6 @@
     "description": "Youtube",
     "author": "Augusto Savi"
     ,
-    "browser_action": {
-
-   	 "default_popup": "./index.html"
-    
-    },
     "content_scripts": [{
         "js": ["contentscript.js"]
         ,"matches": ["*://*/*"]
